@@ -86,7 +86,7 @@ const About = () => {
               <div className='flex py-5 supreme text-gray-700'>
                   <p className='text-gray-700'>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view</p>
               </div>
-              <div className='flex py-7 border-b border-gray-200 mb-10 '>
+              <div className='flex py-2 sm:py-7 border-b border-gray-200 mb-10 '>
                   <div className='px-6 supreme text-black'>
                       <h1>15+</h1>
                       <p>Projects Done</p>
@@ -100,7 +100,7 @@ const About = () => {
           </motion.div>
           <motion.div
           animate={animation2}
-          className='col-span-3 flex  pb-5 pt-6 overflow-hidden'>
+          className='pt-2 sm:pt-6 col-span-3 flex  pb-5 overflow-hidden'>
               <div className='flex'>
                   <Image src={about1} className='-rotate-12 object-cover border border-white shadow-lg shadow-gray-400'
                   width='320px'
@@ -126,30 +126,30 @@ const About = () => {
       </div>
 
     </div>
-          <div className='w-full bg-[#dcdcdc] shadow-lg '>
+          <div className='w-full bg-[#dcdcdc] shadow-lg mt-2 '>
           <Marquee play={true} pauseOnHover gradient={false}>
-                  <div className='px-2 sm:px-28 cursor-pointer' >
+                  <div className='px-1 sm:px-28 cursor-pointer' >
                       <Image src={html} alt='/' />
                   </div>
-                  <div className='px-2 sm:px-28 cursor-pointer'>
+                  <div className='px-1 sm:px-10 md:px-28 cursor-pointer'>
                       <Image src={tailwind} alt='/'/>
                   </div>
-                  <div className=' px-2 sm:px-28 cursor-pointer'>
+                  <div className=' px-1 sm:px-10 md:px-28 cursor-pointer'>
                       <Image src={reactjs} alt='/'/>
                   </div>
-                  <div className=' px-2 sm:px-28 cursor-pointer'>
+                  <div className=' px-1sm:px-10 md:px-28  cursor-pointer'>
                       <Image src={node} alt='/'/>
                   </div>
-                  <div className=' px-2 sm:px-28 cursor-pointer'>
+                  <div className=' px-1sm:px-10 md:px-28  cursor-pointer'>
                       <Image src={scss} alt='/'/>
                   </div>
-                  <div className=' px-2 sm:px-28 cursor-pointer'>
+                  <div className=' px-1 sm:px-10 md:px-28 cursor-pointer'>
                       <Image src={javascript} alt='/'/>
                   </div>
-                  <div className=' px-2 sm:px-28 cursor-pointer'>
+                  <div className=' px-1 sm:px-10 md:px-28 cursor-pointer'>
                       <Image src={figma} alt='/'/>
                   </div>
-                  <div className=' px-2 sm:px-28 cursor-pointer'>
+                  <div className=' px-1 sm:px-10 md:px-28 cursor-pointer'>
                       <Image src={firebase} alt='/'/>
                   </div>
           </Marquee>
