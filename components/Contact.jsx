@@ -51,10 +51,10 @@ const Contact = () => {
         e.target.reset();
     };
   return (
-    <div ref={ref} id='contact' className='max-w-[1240px] mx-auto  w-full px-4 justify-center items-center'>
+    <div ref={ref} id='contact' className='max-w-[1240px] mx-auto  w-full justify-center items-center'>
         <div className='text-center items-center flex w-full h-screen'>
-            <div className='grid grid-cols-4 sm:grid-cols-4 w-full'>
-                <div className='col-span-4 sm:col-span-1 grid text-left justify-center items-center'>
+            <div className='grid grid-cols-4 md:grid-cols-4 w-full '>
+                <div className='col-span-4 md:col-span-1 grid text-left justify-center items-center shadow-lg py-8'>
                     <div className='py-4'>
                         <h2>Get in Touch!</h2>
                     </div>
@@ -64,9 +64,9 @@ const Contact = () => {
                     </div>
 
                 </div>
-                <div className='col-span-4 sm:col-span-3 justify-center text-center items-center mx-auto uppercase'>
-                    <motion.h1 animate={animation} className={contact ? 'text-center font-bold  cursor-pointer hidden supreme logoAnimate text-[60px] sm:text-[170px] py-4'
-                                : 'text-center font-bold text-[70px] cursor-pointer visible supreme logoAnimate sm:text-[170px] py-4 '} 
+                <div className='col-span-4 md:col-span-3 justify-center text-center items-center mx-auto uppercase max-w-[1240px]'>
+                    <motion.h1 animate={animation} className={contact ? 'text-center font-bold  cursor-pointer hidden supreme logoAnimate text-[70px] md:text-[170px] py-4'
+                                : 'text-center font-bold text-[60px] cursor-pointer visible supreme logoAnimate md:text-[170px] py-4 '} 
                                 onClick={handleForm}>Say Hi!👋
                     </motion.h1>
               
