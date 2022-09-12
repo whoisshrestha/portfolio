@@ -18,7 +18,6 @@ const Main = () => {
              damping: 20
            }} className='max-w-[1240px] w-full h-full mx-auto p-2 pt-24 flex justify-center items-center text-center supreme'>
             <div className='text-center items-center'>
-//                 <p className='uppercase text-sm trackimg-widest text-gray-700'>UI/UX Designer & WEB DESIGNER</p>
                 <h1 className='py-4 text-gray-700'>
                     Hi 👋, I am <span className='text-[#5735dd]'>Bipin</span>
                 </h1>
