@@ -1,26 +1,65 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@layer base{
+    body{
+        @apply bg-[#dcdcdc] text-[#1f2937] tracking-wide
+    }
+
+    h1,h2,h3,h4,h5,h6{
+        @apply font-bold
+    }
+    h1{
+        @apply text-4xl sm:text-5xl md:text-6xl
+    }
+    h2{
+        @apply text-3xl sm:text-4xl
+    }
+
+    li{
+        @apply cursor-pointer
+    }
+
+    /* button{
+        @apply shadow-gray-400  uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
+    } */
+    svg{
+        display:inline-block;
+    }
 }
 
-* {
-  box-sizing: border-box;
+
+.logo{
+    font-family: 'Qwitcher Grypen', cursive !important;
+    font-weight: 800;
+}
+.supreme{
+    font-family: 'Supreme', sans-serif;
+    font-weight: 800;
+    
+}
+.logoAnimate{
+    background: linear-gradient(to right, #5735dd  50%,#000 50%);
+    background-clip: text;
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.8s ease-out;
+}
+.logoAnimate:hover{
+    background-position: -100%;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.buttonAnimate{
+    background: linear-gradient(to right, #5735dd  50%, #000 50%);
+    background-size: 200%;
+    transition: 0.5s ease-out;
+}
+.buttonAnimate:hover{
+    background-position: -100%;
 }
