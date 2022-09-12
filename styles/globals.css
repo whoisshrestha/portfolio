@@ -63,3 +63,8 @@ html{
 .buttonAnimate:hover{
     background-position: -100%;
 }
+.contact{
+    background-image: url(../assets/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
