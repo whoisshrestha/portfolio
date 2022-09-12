@@ -20,7 +20,7 @@ const Main = () => {
             <div className='text-center items-center'>
                 <p className='uppercase text-sm trackimg-widest text-gray-700'>UI/UX Designer & WEB DESIGNER</p>
                 <h1 className='py-4 text-gray-700'>
-                    Hi 👋, I'm <span className='text-[#5735dd]'>Bipin</span>
+                    Hi 👋, I am <span className='text-[#5735dd]'>Bipin</span>
                 </h1>
                 <h1 className='py-2 text-gray-700'>UI/UX Designer & WEB DESIGNER</h1>
                 <p className='py-2 text-gray-700 max-w-sm text-center mx-auto'> Equipped with a 
