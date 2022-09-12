@@ -65,9 +65,9 @@ const Contact = () => {
 
                 </div>
                 <div className='col-span-4 sm:col-span-3 justify-center text-center items-center mx-auto uppercase'>
-                    <motion.h1 animate={animation} className={contact ? 'text-center font-bold  cursor-pointer hidden supreme logoAnimate text-[70px] sm:text-[170px] py-4'
+                    <motion.h1 animate={animation} className={contact ? 'text-center font-bold  cursor-pointer hidden supreme logoAnimate text-[60px] sm:text-[170px] py-4'
                                 : 'text-center font-bold text-[70px] cursor-pointer visible supreme logoAnimate sm:text-[170px] py-4 '} 
-                                onClick={handleForm}>Say Hi!
+                                onClick={handleForm}>Say Hi!👋
                     </motion.h1>
               
                 <div className={contact ? 'max-w-[600px] m-auto visible ease-in delay-500' : 'max-w-[600px] m-auto hidden ease-in delay-500'}>
