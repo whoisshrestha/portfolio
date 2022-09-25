@@ -126,7 +126,7 @@ const About = () => {
       </div>
 
     </div>
-          <div className='w-full bg-[#dcdcdc] shadow-lg mt-10 '>
+          <div className='w-full bg-[#dcdcdc] shadow-lg mt-4 sm:mt-10 '>
           <Marquee play={true} pauseOnHover gradient={false}>
                   <div className='px-1 sm:px-28 cursor-pointer' >
                       <Image src={html} alt='/' />
